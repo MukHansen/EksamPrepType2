@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import dtos.PersonDTO;
 import entities.Role;
 import entities.User;
-import facades.DataFromSwappi;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -39,7 +38,6 @@ import utils.EMF_Creator;
 public class DemoResource {
 
     private static EntityManagerFactory EMF = EMF_Creator.createEntityManagerFactory(EMF_Creator.DbSelector.DEV, EMF_Creator.Strategy.CREATE);
-    private static DataFromSwappi dfs = new DataFromSwappi();
 
 
     @Context
@@ -87,13 +85,6 @@ public class DemoResource {
         return "{\"msg\": \"Hello to (admin) User: " + thisuser + "\"}";
     }
 
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    @Path("user/people")
-    @RolesAllowed({"user", "admin"})
-    public List<PersonDTO> getFromUserPeople() throws MalformedURLException, IOException, InterruptedException, ExecutionException {
-        return dfs.getPeople();
-    }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
