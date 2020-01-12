@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/EksamPrepType1/static/css/main.08622119.chunk.css",
+    "main.js": "/EksamPrepType1/static/js/main.703421e5.chunk.js",
+    "main.js.map": "/EksamPrepType1/static/js/main.703421e5.chunk.js.map",
+    "runtime-main.js": "/EksamPrepType1/static/js/runtime-main.6a0b67eb.js",
+    "runtime-main.js.map": "/EksamPrepType1/static/js/runtime-main.6a0b67eb.js.map",
+    "static/js/2.9c2e15b0.chunk.js": "/EksamPrepType1/static/js/2.9c2e15b0.chunk.js",
+    "static/js/2.9c2e15b0.chunk.js.map": "/EksamPrepType1/static/js/2.9c2e15b0.chunk.js.map",
+    "index.html": "/EksamPrepType1/index.html",
+    "precache-manifest.6aeb2631a214f04d7679c471862e1775.js": "/EksamPrepType1/precache-manifest.6aeb2631a214f04d7679c471862e1775.js",
+    "service-worker.js": "/EksamPrepType1/service-worker.js",
+    "static/css/main.08622119.chunk.css.map": "/EksamPrepType1/static/css/main.08622119.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a0b67eb.js",
+    "static/js/2.9c2e15b0.chunk.js",
+    "static/css/main.08622119.chunk.css",
+    "static/js/main.703421e5.chunk.js"
+  ]
+}
